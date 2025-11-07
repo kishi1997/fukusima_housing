@@ -84,7 +84,9 @@
         <div class="top-concept__btn">
             <a href="<?php bloginfo('url'); ?>/news/" class="c-btn">選ばれる理由
                 <div class="c-btn--circle">
-                    <span class="c-btn--circle-arrow"></span>
+                    <span class="c-btn--circle-arrow">
+                        <img src="<?php bloginfo('template_url');?>/img/ico-right-arrow.svg" alt="">
+                    </span>
                 </div>
             </a>
         </div>
@@ -257,7 +259,9 @@
             <div class="top-case__btn">
                 <a href="<?php bloginfo('url'); ?>/news/" class="c-btn">もっとみる
                     <div class="c-btn--circle">
-                        <span class="c-btn--circle-arrow"></span>
+                        <span class="c-btn--circle-arrow">
+                            <img src="<?php bloginfo('template_url');?>/img/ico-right-arrow.svg" alt="">
+                        </span>
                     </div>
                 </a>
             </div>
@@ -382,7 +386,9 @@
     <div class="top-staff__btn">
         <a href="<?php bloginfo('url'); ?>/news/" class="c-btn">もっとみる
             <div class="c-btn--circle">
-                <span class="c-btn--circle-arrow"></span>
+                <span class="c-btn--circle-arrow">
+                    <img src="<?php bloginfo('template_url');?>/img/ico-right-arrow.svg" alt="">
+                </span>
             </div>
         </a>
     </div>
@@ -413,7 +419,9 @@
                     <div class="top-message__btn">
                         <a href="<?php bloginfo('url'); ?>/company/" class="c-btn">会社概要
                             <div class="c-btn--circle">
-                                <span class="c-btn--circle-arrow"></span>
+                                <span class="c-btn--circle-arrow">
+                                    <img src="<?php bloginfo('template_url');?>/img/ico-right-arrow.svg" alt="">
+                                </span>
                             </div>
                         </a>
                     </div>
@@ -470,7 +478,9 @@
             <div class="top-information__news--btn">
                 <a href="<?php bloginfo('url'); ?>/news/" class="c-btn">もっと見る
                     <div class="c-btn--circle">
-                        <span class="c-btn--circle-arrow"></span>
+                        <span class="c-btn--circle-arrow">
+                            <img src="<?php bloginfo('template_url');?>/img/ico-right-arrow.svg" alt="">
+                        </span>
                     </div>
                 </a>
             </div>
@@ -527,7 +537,9 @@
             <div class="top-information__column--btn">
                 <a href="<?php bloginfo('url'); ?>/column/" class="c-btn">もっと見る
                     <div class="c-btn--circle">
-                        <span class="c-btn--circle-arrow"></span>
+                        <span class="c-btn--circle-arrow">
+                            <img src="<?php bloginfo('template_url');?>/img/ico-right-arrow.svg" alt="">
+                        </span>
                     </div>
                 </a>
             </div>
@@ -572,7 +584,9 @@
         <div class="top-faq__btn">
             <a href="<?php bloginfo('url'); ?>/news/" class="c-btn">もっとみる
                 <div class="c-btn--circle">
-                    <span class="c-btn--circle-arrow"></span>
+                    <span class="c-btn--circle-arrow">
+                        <img src="<?php bloginfo('template_url');?>/img/ico-right-arrow.svg" alt="">
+                    </span>
                 </div>
             </a>
         </div>

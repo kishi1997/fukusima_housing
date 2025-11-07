@@ -103,7 +103,8 @@
                                 <div class="header-open__contact--item header-open__contact--phone">
                                     <p class="header-open__contact--title">お電話でのお問い合わせ</p>
                                     <p>
-                                        <img src="<?php bloginfo('template_url');?>/img/ico-tel.svg" alt="電話アイコン">
+                                        <img src="<?php bloginfo('template_url');?>/img/ico-tel-header.svg"
+                                            alt="電話アイコン">
                                         <a href="tel:048-580-4188">048-580-4188</a>
                                     </p>
                                     <p class="header-open__contact--time">営業時間/9:00-18:00 定休日/火曜・水曜</p>
@@ -111,7 +112,7 @@
                                 <div class="header-open__contact--item header-open__contact--mail">
                                     <a href="<?php bloginfo('url'); ?>/contact/">
                                         <p class="header-open__contact--title">
-                                            <span><img src="<?php bloginfo('template_url');?>/img/ico-mail.svg"
+                                            <span><img src="<?php bloginfo('template_url');?>/img/ico-mail-header.svg"
                                                     alt="メールアイコン"></span>メールでのお問い合わせ
                                         </p>
                                     </a>

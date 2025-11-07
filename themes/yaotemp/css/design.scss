@@ -131,31 +131,38 @@ body {
     position: relative;
     display: inline-block;
     width: 12px;
-    height: 1.5px;
-    margin: 5px 0;
-    border-radius: 9999px;
-    background-color: $primary-color;
+  }
+  .c-btn--circle-arrow img {
+    width: 100%;
+    height: auto;
+    display: block;
   }
 }
-.c-btn--circle-arrow::before,
-.c-btn--circle-arrow::after {
-  content: "";
-  position: absolute;
-  top: calc(50% - 0.5px);
-  right: 0;
-  width: 6px;
-  height: 1.5px;
-  border-radius: 9999px;
-  background-color: $primary-color;
-  transform-origin: calc(100% - 0.5px) 50%;
+.c-btn:hover .c-btn--circle-arrow img {
+  animation: 0.4s ease 0s 1 normal none running lefttoright;
 }
-.c-btn--circle-arrow::before {
-  transform: rotate(45deg);
+@keyframes lefttoright {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  49% {
+    transform: translateX(110%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(-110%);
+    opacity: 0;
+  }
+  51% {
+    transform: translateX(-110%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
-.c-btn--circle-arrow::after {
-  transform: rotate(-45deg);
-}
-
 //================================================
 // 共通コンポーネント
 //================================================
@@ -426,14 +433,6 @@ body {
     bottom: 0;
   }
 
-  #menu-button.is-active span {
-    background-color: #fff;
-
-    @include max-screen($breakpoint-lg) {
-      background-color: $primary-color;
-    }
-  }
-
   #menu-button.is-active span:nth-of-type(1) {
     -webkit-transform: translateY(12px) rotate(-45deg);
     transform: translateY(12px) rotate(-45deg);
@@ -465,7 +464,7 @@ body {
       margin-left: auto;
       padding: 0;
 
-      @include max-screen($breakpoint-md) {
+      @include max-screen($breakpoint-sm) {
         flex-direction: column;
       }
 
@@ -483,6 +482,10 @@ body {
         background-color: #fff;
 
         @include max-screen($breakpoint-md) {
+          flex: none;
+          width: 40%;
+        }
+        @include max-screen($breakpoint-sm) {
           width: 100%;
           text-align: left;
           display: block;
@@ -495,6 +498,9 @@ body {
           width: 171px;
 
           @include max-screen($breakpoint-md) {
+            width: 132px;
+          }
+          @include max-screen($breakpoint-sm) {
             width: 81px;
           }
         }
@@ -504,6 +510,9 @@ body {
         flex: 1;
         background-color: $base-color;
         @include max-screen($breakpoint-md) {
+          gap: 64px;
+        }
+        @include max-screen($breakpoint-sm) {
           padding-top: 70px;
         }
 
@@ -519,10 +528,16 @@ body {
           }
 
           @include max-screen($breakpoint-md) {
+            gap: 40px;
+          }
+          @include max-screen($breakpoint-sm) {
             flex-direction: column;
             gap: 90px;
             width: 100%;
             padding: 0px 5% 40px;
+          }
+          @include max-screen($breakpoint-s) {
+            gap: 40px;
           }
         }
 
@@ -556,8 +571,11 @@ body {
             flex-wrap: wrap;
             width: 100%;
 
-            @include max-screen($breakpoint-sm) {
+            @include max-screen($breakpoint-md) {
               gap: 24px;
+            }
+            @include max-screen($breakpoint-s) {
+              gap: 14px;
             }
 
             li {
@@ -566,22 +584,21 @@ body {
               .header-child__menu {
                 padding-left: 2rem;
                 margin-top: 12px;
+                display: flex;
+                flex-direction: column;
+                gap: 4px;
                 @include max-screen($breakpoint-sm) {
                   padding-left: 0;
-                  display: flex;
-                  gap: 10px;
-                  flex-direction: column;
                 }
 
                 li {
                   padding-left: 2rem;
-                  line-height: 1.63;
 
                   a {
                     padding: 0;
                     font-size: 1.4rem;
                     font-weight: 400;
-                    line-height: 1.86;
+                    line-height: 1;
                     @include max-screen(350px) {
                       font-size: 1.2rem;
                     }
@@ -616,7 +633,7 @@ body {
           gap: 24px;
           margin-left: auto;
 
-          @include max-screen($breakpoint-md) {
+          @include max-screen($breakpoint-sm) {
             gap: 24px;
             max-width: 100%;
             margin-inline: auto;
@@ -756,8 +773,12 @@ body {
     grid-template-rows: auto 1fr;
     gap: 30px 55px;
     overflow: hidden;
+    @include max-screen($breakpoint-lg) {
+      grid-template-columns: 1.3fr 2.5fr;
+    }
     @include max-screen($breakpoint-md) {
       gap: 24px 40px;
+      grid-template-columns: 1.5fr 2.5fr;
     }
     .image-small {
       grid-column: 1 / 2; // 1列目に配置
