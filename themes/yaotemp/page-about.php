@@ -3,7 +3,7 @@
 <div class="page-about">
     <div class="c-pagehead-set">
         <div class="c-pagehead-text">
-            <p><?php echo $slug = get_post(get_the_ID())->post_name; ?></p>
+            <p>For beginner</p>
             <h1><?php the_title(); ?></h1>
         </div>
     </div>
@@ -65,7 +65,7 @@
                 <div class="c-number-feature__list">
                     <div class="c-number-feature__item">
                         <div class="c-number-feature__img">
-                            <img src="<?php bloginfo('template_url');?>/img/about-feature-image1.jpg" alt="「ご予算内で最高の満足を」イメージ画像">
+                            <img src="<?php bloginfo('template_url');?>/img/about-feature-img1.jpg" alt="「ご予算内で最高の満足を」イメージ画像">
                         </div>
                         <div class="c-number-feature__content">
                             <span class="bg-number">01</span>
@@ -79,7 +79,7 @@
 
                     <div class="c-number-feature__item">
                         <div class="c-number-feature__img">
-                            <img src="<?php bloginfo('template_url');?>/img/about-feature-image2.jpg" alt="「主役であるお客様との対話を大切に」イメージ画像">
+                            <img src="<?php bloginfo('template_url');?>/img/about-feature-img2.jpg" alt="「主役であるお客様との対話を大切に」イメージ画像">
                         </div>
                         <div class="c-number-feature__content">
                             <span class="bg-number">02</span>
@@ -93,7 +93,7 @@
 
                     <div class="c-number-feature__item">
                         <div class="c-number-feature__img">
-                            <img src="<?php bloginfo('template_url');?>/img/about-feature-image3.jpg" alt="「工事中から完成後まで、ずっと寄り添う安心感」イメージ画像">
+                            <img src="<?php bloginfo('template_url');?>/img/about-feature-img3.jpg" alt="「工事中から完成後まで、ずっと寄り添う安心感」イメージ画像">
                         </div>
                         <div class="c-number-feature__content">
                             <span class="bg-number">03</span>
