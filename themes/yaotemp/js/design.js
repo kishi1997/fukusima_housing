@@ -192,6 +192,35 @@ $(function () {
   });
 });
 
+//下層ページ - reason
+$(function () {
+  $(".reason-staff__list").slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: true,
+    infinite: true,
+    autoplay: false,
+    fade: false,
+    dots: false,
+    prevArrow: $(".c-slick__arrows--prev"),
+    nextArrow: $(".c-slick__arrows--next"),
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  });
+});
+
 // 画像拡大
 $(function () {
   $(".gallery").modaal({
