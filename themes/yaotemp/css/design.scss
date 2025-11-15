@@ -2663,7 +2663,7 @@ top-concept /
             .c-number-feature__content--title {
               margin-bottom: clamp(3.2rem, 4.4vw, 5.4rem);
                 font-size: clamp(2rem, 2.2vw, 2.6rem);
-              line-height: 1.2;
+              line-height: 1.5;
               letter-spacing: 0.05em;
             }
 
@@ -2869,6 +2869,111 @@ top-concept /
       }
     }
 	}
+}
+
+.c-construction {
+  margin: 120px 0;
+
+  .c-construction__table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 650px;
+    width: 100%;
+    table-layout: fixed;
+
+    @include max-screen($breakpoint-sm) {
+      width: auto;
+      border: 0;
+    }
+
+    tr {
+      background-color: #efeee7;
+      padding: .35em;
+      border-bottom: 2px solid $base-color;
+    }
+
+    th,
+    td {
+      padding: 1em 10px 1em 1em;
+      border-right: 2px solid $base-color;
+      text-align: center;
+      font-weight: 700;
+    }
+
+    thead tr{
+      background-color: $primary-color;
+      color:$base-color;
+    }
+
+    tbody th {
+      background: #efeee7;
+      color: $base-color;
+
+      @include max-screen($breakpoint-sm) {
+        width: auto;
+        border: 0;
+        width:100%
+      }
+    }
+
+    .c-construction__text {
+      text-align: left;
+    }
+
+    .c-construction__price {
+      text-align: right;
+      color: $primary-color;
+      font-weight: bold;
+    }
+
+    @include max-screen($breakpoint-sm) {
+      
+      table th{
+        background-color: $primary-color;
+        display: block;
+        border-right: none;
+      }
+      
+      table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
+      table tr {
+        display: block;
+        margin-bottom: .625em;
+      }
+      table td {
+        border-bottom: 1px solid #bbb;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+        position: relative;
+        padding: .625em .625em .625em 4em;
+        border-right: none;
+      }
+    
+      table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        position: absolute;
+        left: 10px;
+        color: $primary-color;
+      }
+      table td:last-child {
+        border-bottom: 0;
+      }
+      table tbody th {
+        color: #fff;
+      }
+    }
+  }  
 }
 
 /* =================================================================
@@ -3118,11 +3223,15 @@ top-concept /
     }
 
     .c-2col__content {
-      order: 2;
+      @include max-screen($breakpoint-sm) {
+        order: 2;
+      }
     }
 
     .c-2col__img {
-      order: 1;
+      @include max-screen($breakpoint-sm) {
+        order: 1;
+      }
     }
 
     .c-2col__img::before {
@@ -3147,3 +3256,25 @@ top-concept /
     }
   }
 }
+
+/* =================================================================
+  page-washitsu / 和室を洋室に
+================================================================= */
+.page-washitsu {
+
+  .c-pagehead-set {
+		background-image: url(../img/washitsu-mv-bg.jpg);
+
+		@include max-screen($breakpoint-lg) {
+			border-left: 0;
+		}
+	}
+  
+  .c-construction {
+    .c-construction__head {
+      margin-bottom: 80px;
+      text-align: center;
+    }
+  } 
+}
+

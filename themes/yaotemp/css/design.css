@@ -2587,7 +2587,7 @@ top-concept /
 .c-number-feature .l-container .c-number-feature__list .c-number-feature__item .c-number-feature__content .c-number-feature__content--title {
   margin-bottom: clamp(3.2rem, 4.4vw, 5.4rem);
   font-size: clamp(2rem, 2.2vw, 2.6rem);
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.05em;
 }
 .c-number-feature .l-container .c-number-feature__list .c-number-feature__item .c-number-feature__content .c-number-feature__content--text {
@@ -2779,6 +2779,102 @@ top-concept /
 .c-2col .c-2col__item .c-2col__content .c-2col__content--text {
   font-size: clamp(1.4rem, 1.5vw, 1.6rem);
   line-height: 2;
+}
+
+.c-construction {
+  margin: 120px 0;
+}
+.c-construction .c-construction__table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 650px;
+  width: 100%;
+  table-layout: fixed;
+}
+@media screen and (max-width: 768px) {
+  .c-construction .c-construction__table {
+    width: auto;
+    border: 0;
+  }
+}
+.c-construction .c-construction__table tr {
+  background-color: #efeee7;
+  padding: 0.35em;
+  border-bottom: 2px solid #f7f6f0;
+}
+.c-construction .c-construction__table th,
+.c-construction .c-construction__table td {
+  padding: 1em 10px 1em 1em;
+  border-right: 2px solid #f7f6f0;
+  text-align: center;
+  font-weight: 700;
+}
+.c-construction .c-construction__table thead tr {
+  background-color: #5d4f3a;
+  color: #f7f6f0;
+}
+.c-construction .c-construction__table tbody th {
+  background: #efeee7;
+  color: #f7f6f0;
+}
+@media screen and (max-width: 768px) {
+  .c-construction .c-construction__table tbody th {
+    width: auto;
+    border: 0;
+    width: 100%;
+  }
+}
+.c-construction .c-construction__table .c-construction__text {
+  text-align: left;
+}
+.c-construction .c-construction__table .c-construction__price {
+  text-align: right;
+  color: #5d4f3a;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .c-construction .c-construction__table table th {
+    background-color: #5d4f3a;
+    display: block;
+    border-right: none;
+  }
+  .c-construction .c-construction__table table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  .c-construction .c-construction__table table tr {
+    display: block;
+    margin-bottom: 0.625em;
+  }
+  .c-construction .c-construction__table table td {
+    border-bottom: 1px solid #bbb;
+    display: block;
+    font-size: 0.8em;
+    text-align: right;
+    position: relative;
+    padding: 0.625em 0.625em 0.625em 4em;
+    border-right: none;
+  }
+  .c-construction .c-construction__table table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+    color: #5d4f3a;
+  }
+  .c-construction .c-construction__table table td:last-child {
+    border-bottom: 0;
+  }
+  .c-construction .c-construction__table table tbody th {
+    color: #fff;
+  }
 }
 
 /* =================================================================
@@ -3019,11 +3115,15 @@ top-concept /
     margin: 40px 0 0;
   }
 }
-.page-reason .reason-interview .c-2col__content {
-  order: 2;
+@media screen and (max-width: 768px) {
+  .page-reason .reason-interview .c-2col__content {
+    order: 2;
+  }
 }
-.page-reason .reason-interview .c-2col__img {
-  order: 1;
+@media screen and (max-width: 768px) {
+  .page-reason .reason-interview .c-2col__img {
+    order: 1;
+  }
 }
 .page-reason .reason-interview .c-2col__img::before {
   right: unset;
@@ -3044,4 +3144,20 @@ top-concept /
   .page-reason .reason-service {
     margin: 80px 0;
   }
+}
+
+/* =================================================================
+  page-washitsu / 和室を洋室に
+================================================================= */
+.page-washitsu .c-pagehead-set {
+  background-image: url(../img/washitsu-mv-bg.jpg);
+}
+@media screen and (max-width: 1280px) {
+  .page-washitsu .c-pagehead-set {
+    border-left: 0;
+  }
+}
+.page-washitsu .c-construction .c-construction__head {
+  margin-bottom: 80px;
+  text-align: center;
 }/*# sourceMappingURL=design.css.map */
