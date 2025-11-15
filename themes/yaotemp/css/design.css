@@ -2784,6 +2784,10 @@ top-concept /
 .c-construction {
   margin: 120px 0;
 }
+.c-construction .c-construction__head {
+  margin-bottom: 80px;
+  text-align: center;
+}
 .c-construction .c-construction__table {
   border-collapse: collapse;
   margin: 0 auto;
@@ -2875,6 +2879,10 @@ top-concept /
   .c-construction .c-construction__table table tbody th {
     color: #fff;
   }
+}
+.c-construction .c-construction__text {
+  margin-top: 14px;
+  text-align: center;
 }
 
 /* =================================================================
@@ -3157,7 +3165,15 @@ top-concept /
     border-left: 0;
   }
 }
-.page-washitsu .c-construction .c-construction__head {
-  margin-bottom: 80px;
-  text-align: center;
+
+/* =================================================================
+  page-madori / 間取り変更
+================================================================= */
+.page-madori .c-pagehead-set {
+  background-image: url(../img/madori-mv-bg.jpg);
+}
+@media screen and (max-width: 1280px) {
+  .page-madori .c-pagehead-set {
+    border-left: 0;
+  }
 }/*# sourceMappingURL=design.css.map */

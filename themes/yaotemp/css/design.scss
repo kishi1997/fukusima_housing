@@ -2874,6 +2874,11 @@ top-concept /
 .c-construction {
   margin: 120px 0;
 
+  .c-construction__head {
+    margin-bottom: 80px;
+    text-align: center;
+  }
+
   .c-construction__table {
     border-collapse: collapse;
     margin: 0 auto;
@@ -2974,6 +2979,10 @@ top-concept /
       }
     }
   }  
+  .c-construction__text {
+    margin-top: 14px;
+    text-align: center;
+  }
 }
 
 /* =================================================================
@@ -3269,12 +3278,18 @@ top-concept /
 			border-left: 0;
 		}
 	}
-  
-  .c-construction {
-    .c-construction__head {
-      margin-bottom: 80px;
-      text-align: center;
-    }
-  } 
 }
 
+/* =================================================================
+  page-madori / 間取り変更
+================================================================= */
+.page-madori {
+
+  .c-pagehead-set {
+		background-image: url(../img/madori-mv-bg.jpg);
+
+		@include max-screen($breakpoint-lg) {
+			border-left: 0;
+		}
+	}
+}
