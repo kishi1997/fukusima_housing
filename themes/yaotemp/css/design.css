@@ -3188,4 +3188,16 @@ top-concept /
   .page-ldk .c-pagehead-set {
     border-left: 0;
   }
+}
+
+/* =================================================================
+  page-large-renovation / 大規模リノベ
+================================================================= */
+.page-large-renovation .c-pagehead-set {
+  background-image: url(../img/large-renovation-mv-bg.jpg);
+}
+@media screen and (max-width: 1280px) {
+  .page-large-renovation .c-pagehead-set {
+    border-left: 0;
+  }
 }/*# sourceMappingURL=design.css.map */

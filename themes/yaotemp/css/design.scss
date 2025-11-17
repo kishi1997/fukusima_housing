@@ -3307,3 +3307,17 @@ top-concept /
 		}
 	}
 }
+
+/* =================================================================
+  page-large-renovation / 大規模リノベ
+================================================================= */
+.page-large-renovation {
+
+  .c-pagehead-set {
+		background-image: url(../img/large-renovation-mv-bg.jpg);
+
+		@include max-screen($breakpoint-lg) {
+			border-left: 0;
+		}
+	}
+}
