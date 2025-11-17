@@ -3335,3 +3335,17 @@ top-concept /
 		}
 	}
 }
+
+/* =================================================================
+  page-barrier-free / バリアフリー
+================================================================= */
+.page-barrier-free {
+
+  .c-pagehead-set {
+		background-image: url(../img/barrier-free-mv-bg.jpg);
+
+		@include max-screen($breakpoint-lg) {
+			border-left: 0;
+		}
+	}
+}

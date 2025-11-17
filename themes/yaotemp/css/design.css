@@ -3212,4 +3212,16 @@ top-concept /
   .page-insulation .c-pagehead-set {
     border-left: 0;
   }
+}
+
+/* =================================================================
+  page-barrier-free / バリアフリー
+================================================================= */
+.page-barrier-free .c-pagehead-set {
+  background-image: url(../img/barrier-free-mv-bg.jpg);
+}
+@media screen and (max-width: 1280px) {
+  .page-barrier-free .c-pagehead-set {
+    border-left: 0;
+  }
 }/*# sourceMappingURL=design.css.map */
