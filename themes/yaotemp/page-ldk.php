@@ -67,7 +67,7 @@
                 <div class="c-number-feature__list">
                     <div class="c-number-feature__item">
                         <div class="c-number-feature__img">
-                            <img src="<?php bloginfo('template_url');?>/img/ldk-feature-img1.jpg" alt="木の温もりと障子が調和した和モダンなリビング">
+                            <img src="<?php bloginfo('template_url');?>/img/ldk-feature-img1.jpg" alt="木の温もりを感じるダイニングキッチン">
                         </div>
                         <div class="c-number-feature__content">
                             <h3 class="c-number-feature__content--title">家族の顔が見える、<br>会話が弾む対面キッチン</h3>
@@ -79,7 +79,7 @@
 
                     <div class="c-number-feature__item">
                         <div class="c-number-feature__img">
-                            <img src="<?php bloginfo('template_url');?>/img/ldk-feature-img2.jpg" alt="間接照明が柔らかく灯る木の書斎スペース">
+                            <img src="<?php bloginfo('template_url');?>/img/ldk-feature-img2.jpg" alt="吹き抜けのある明るいLDKと木のぬくもりのインテリア">
                         </div>
                         <div class="c-number-feature__content">
                             <h3 class="c-number-feature__content--title">一体感のある、<br>広々とした開放的な空間</h3>
@@ -91,7 +91,7 @@
 
                     <div class="c-number-feature__item">
                         <div class="c-number-feature__img">
-                            <img src="<?php bloginfo('template_url');?>/img/ldk-feature-img3.jpg" alt="吹き抜けリビングで家族が過ごす明るい木の家の内観">
+                            <img src="<?php bloginfo('template_url');?>/img/ldk-feature-img3.jpg" alt="白を基調としたモダンなアイランドキッチン">
                         </div>
                         <div class="c-number-feature__content">
                             <h3 class="c-number-feature__content--title">「見せる収納」「隠す収納」で<br>スッキリ片付く</h3>

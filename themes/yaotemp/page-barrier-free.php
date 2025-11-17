@@ -114,7 +114,7 @@
                     </picture>
                 </div>
                 <div class="c-title">
-                    <h2 class="c-title--en">BARRIER-FREE RENOVATION<br>CASE STUDIES</h2>
+                    <h2 class="c-title--en">BARRIER-FREE <br class="u-sp">RENOVATION<br>CASE STUDIES</h2>
                     <div class="c-title--jp">バリアフリーリフォームの施工事例</div>
                 </div>
                 <div class="top-case__contentImg">

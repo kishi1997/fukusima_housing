@@ -3349,3 +3349,17 @@ top-concept /
 		}
 	}
 }
+
+/* =================================================================
+  page-water-area / 水回りリフォーム
+================================================================= */
+.page-water-area {
+
+  .c-pagehead-set {
+		background-image: url(../img/water-area-mv-bg.jpg);
+
+		@include max-screen($breakpoint-lg) {
+			border-left: 0;
+		}
+	}
+}

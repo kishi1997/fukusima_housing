@@ -112,7 +112,7 @@
                     </picture>
                 </div>
                 <div class="c-title">
-                    <h2 class="c-title--en">LARGE-SCALE RENOVATION<br>CASE STUDIES</h2>
+                    <h2 class="c-title--en">LARGE-SCALE <br class="u-sp">RENOVATION<br>CASE STUDIES</h2>
                     <div class="c-title--jp">大規模リノベの施工事例</div>
                 </div>
                 <div class="top-case__contentImg">

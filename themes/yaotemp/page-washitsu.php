@@ -57,7 +57,7 @@
         <section class="c-number-feature">
             <div class="c-number-feature__head">
                 <div class="c-title">
-                    <span class="c-title--en">JAPANESE STYLE</span>
+                    <span class="c-title--en">JAPANESE STYLE RENOVATION</span>
                     <h2 class="c-title--jp">和室リフォームで、暮らしはこう変わる</h2>
                 </div>
             </div>
@@ -112,7 +112,7 @@
                     </picture>
                 </div>
                 <div class="c-title">
-                    <h2 class="c-title--en">JAPANESE-STYLE <br>CASE STUDIES</h2>
+                    <h2 class="c-title--en">JAPANESE STYLE <br class="u-sp">RENOVATION <br>CASE STUDIES</h2>
                     <div class="c-title--jp">和室リフォームの施工事例</div>
                 </div>
                 <div class="top-case__contentImg">

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="page-insulation">
+<div class="page-water-area">
     <div class="c-pagehead-set">
         <div class="c-pagehead-text">
             <p><?php echo $slug = get_post(get_the_ID())->post_name; ?></p>
@@ -32,11 +32,12 @@
             <div class="l-container">            
                 <div class="c-parts-sec__item">
                     <h2 class="c-parts-sec__title">
-                        一年中快適、身体にも家計にも優しい
+                        毎日使う場所だから、もっと快適に、もっとキレイに。
                     </h2>
                     <p class="c-parts-sec__lead">
-                        高断熱・高気密の住まいは、夏は涼しく冬は暖かく、部屋ごとの温度差が少ない快適な室内環境を実現します。<br>
-                        体への負担を減らし、ヒートショックのリスクを抑えることでご家族の健康も守ります。
+                        キッチンや浴室、洗面所など、毎日欠かさず使う場所こそ快適さと清潔さが大切です。<br>
+                        新設備の導入や収納の工夫により、使いやすさと美しさを兼ね備えた空間へとリフォーム。<br>
+                        お手入れのしやすさも向上するため、家事の負担を軽減しながら長くキレイを保てます。
                     </p>
                 </div>
             </div>
@@ -44,12 +45,12 @@
 
         <section class="c-parts-check">
             <div class="l-container">
-                <h3 class="c-parts-check__title"><span>＼ 家の「暑さ・寒さ」で ／</span>こんなお悩みありませんか？</h3>
+                <h3 class="c-parts-check__title"><span>＼ 毎日の水回り ／</span>こんなお悩みありませんか？</h3>
                 <ul class="c-parts-check__list">
-                    <li><p>冬、暖房をつけても足元がスースー寒い…</p></li>
-                    <li><p>夏の二階が蒸し風呂状態で、エアコンが効かない</p></li>
-                    <li><p>窓の結露がひどく、カビが心配</p></li>
-                    <li><p>毎月の光熱費が高い</p></li>
+                    <li><p>キッチンの収納が少なく、作業スペースが狭い</p></li>
+                    <li><p>お風呂のタイルが冷たく、掃除も大変</p></li>
+                    <li><p>トイレの汚れが落ちにくく、ニオイも気になる</p></li>
+                    <li><p>水道代やガス代を節約したい</p></li>
                 </ul>
             </div>
         </section>
@@ -57,8 +58,8 @@
         <section class="c-number-feature">
             <div class="c-number-feature__head">
                 <div class="c-title">
-                    <span class="c-title--en">INSULATION RENOVATION</span>
-                    <h2 class="c-title--jp">断熱リフォームで、暮らしはこう変わる</h2>
+                    <span class="c-title--en">WATER-AREA RENOVATION</span>
+                    <h2 class="c-title--jp">水回りリフォームで、暮らしはこう変わる</h2>
                 </div>
             </div>
 
@@ -66,36 +67,36 @@
                 <div class="c-number-feature__list">
                     <div class="c-number-feature__item">
                         <div class="c-number-feature__img">
-                            <img src="<?php bloginfo('template_url');?>/img/insulation-feature-img1.jpg" alt="落ち着いた照明のある快適な部屋">
+                            <img src="<?php bloginfo('template_url');?>/img/water-area-feature-img1.jpg" alt="アイランドキッチンを備えたモダンな水回り">
                         </div>
                         <div class="c-number-feature__content">
-                            <h3 class="c-number-feature__content--title">部屋ごとの温度差が少ない<br>快適な室内環境</h3>
+                            <h3 class="c-number-feature__content--title">最新設備で、<br>家事の負担を軽減</h3>
                             <p class="c-number-feature__content--text">
-                            断熱性能を高めることで、家全体の温度差を抑え、どの部屋にいても快適に過ごせる環境が整います。冬の冷え込みや夏の蒸し暑さを和らげ、身体への負担を軽減します。ヒートショックのリスクも減らせるため、ご家族の健康を守る住まいにつながります。
+                            キッチンや浴室、洗面台などの最新設備は、使いやすさと効率性を追求して設計されています。調理や洗い物、洗濯など、毎日の家事をスムーズにこなせる工夫が満載。作業の時間を短縮できることで、家族との時間や自分の時間にゆとりが生まれ、暮らしに余裕をもたらします。
                             </p>
                         </div>
                     </div>
 
                     <div class="c-number-feature__item">
                         <div class="c-number-feature__img">
-                            <img src="<?php bloginfo('template_url');?>/img/insulation-feature-img2.jpg" alt="吹き抜けリビングと高窓のある開放的な空間">
+                            <img src="<?php bloginfo('template_url');?>/img/water-area-feature-img2.jpg" alt="収納力のある木製カウンターとシステムキッチン">
                         </div>
                         <div class="c-number-feature__content">
-                            <h3 class="c-number-feature__content--title">光熱費の削減による、<br>家計への貢献</h3>
+                            <h3 class="c-number-feature__content--title">掃除がしやすく、<br>清潔感を保てる空間</h3>
                             <p class="c-number-feature__content--text">
-                            冷暖房の効率が上がることで無駄なエネルギー消費を抑え、毎月の光熱費を削減できます。快適な住まいを保ちながらも省エネを実現することで、長期的に家計への負担を軽くします。環境にも優しい暮らし方を叶えるリフォームです。
+                            汚れにくい素材やお手入れのしやすい設計を取り入れることで、掃除の手間をぐっと減らせます。水回りのカビやぬめり、キッチンの油汚れなども簡単に落とせ、常に清潔感のある空間をキープ。日常の負担を減らしながら、快適で美しい住まいを保てます。
                             </p>
                         </div>
                     </div>
 
                     <div class="c-number-feature__item">
                         <div class="c-number-feature__img">
-                            <img src="<?php bloginfo('template_url');?>/img/insulation-feature-img3.jpg" alt="木とガルバリウムのモダンな住宅の外観">
+                            <img src="<?php bloginfo('template_url');?>/img/water-area-feature-img3.jpg" alt="モザイクタイルが映える洗面台の水回り">
                         </div>
                         <div class="c-number-feature__content">
-                            <h3 class="c-number-feature__content--title">結露抑制による、<br>家の長寿命化</h3>
+                            <h3 class="c-number-feature__content--title">節水・節湯による、<br>水道光熱費の削減</h3>
                             <p class="c-number-feature__content--text">
-                            断熱性と気密性を高めることで結露の発生を防ぎ、壁や窓まわりのカビや劣化を抑えます。建材の傷みを防ぐことは、住まい全体の寿命を延ばすことにつながります。健康的で長持ちする家を実現し、将来のメンテナンスコストも抑えられます。
+                            最新の水回り設備は、省エネ性能にも優れています。節水型のトイレやシャワー、効率的なお湯の使い方ができる給湯システムなどを導入することで、水道光熱費を大幅に削減可能。環境にも家計にも優しい住まいを実現し、毎月の暮らしをより安心で持続的なものにします。
                             </p>
                         </div>
                     </div>
@@ -112,8 +113,8 @@
                     </picture>
                 </div>
                 <div class="c-title">
-                    <h2 class="c-title--en">INSULATION <br class="u-sp">RENOVATION<br>CASE STUDIES</h2>
-                    <div class="c-title--jp">断熱リフォームの施工事例</div>
+                    <h2 class="c-title--en">WATER-AREA <br class="u-sp">RENOVATION<br>CASE STUDIES</h2>
+                    <div class="c-title--jp">水回りリフォームの施工事例</div>
                 </div>
                 <div class="top-case__contentImg">
                     <picture>
@@ -197,19 +198,19 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td data-label="内容" class="c-construction__text">内窓（二重窓）の設置</td>
+                            <td data-label="内容" class="c-construction__text">システムキッチン交換</td>
                             <td data-label="価格" class="c-construction__price">¥000,000</td>
                         </tr>
                         <tr>
-                            <td data-label="内容" class="c-construction__text">高断熱サッシへの交換</td>
+                            <td data-label="内容" class="c-construction__text">ユニットバス交換</td>
                             <td data-label="価格"class="c-construction__price">¥000,000</td>
                         </tr>
                         <tr>
-                            <td data-label="内容" class="c-construction__text">壁・床・天井への断熱材充填</td>
+                            <td data-label="内容" class="c-construction__text">洗面化粧台交換</td>
                             <td data-label="価格"class="c-construction__price">¥000,000</td>
                         </tr>
                         <tr>
-                            <td data-label="内容" class="c-construction__text">外壁の断熱塗装</td>
+                            <td data-label="内容" class="c-construction__text">トイレ交換<br>（タンクレストイレ、節水トイレなど）</td>
                             <td data-label="価格"class="c-construction__price">¥000,000</td>
                         </tr>
                     </tbody>
