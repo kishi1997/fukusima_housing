@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="page-madori">
+<div class="page-ldk">
     <div class="c-pagehead-set">
         <div class="c-pagehead-text">
             <p><?php echo $slug = get_post(get_the_ID())->post_name; ?></p>
@@ -32,12 +32,12 @@
             <div class="l-container">            
                 <div class="c-parts-sec__item">
                     <h2 class="c-parts-sec__title">
-                        家族の変化に合わせて、<br class="u-pc">暮らしの「最適解」を見つける
+                        家族の「ただいま！」が聞こえる、<br class="u-pc">笑顔が集まるLDK
                     </h2>
                     <p class="c-parts-sec__lead">
-                        暮らしは時間とともに変化していきます。<br>
-                        子どもの成長や独立、在宅ワークの増加、親世代との同居など、家族の形が変われば必要とされる住まいの姿も変わります。<br>
-                        今だけでなく、これから先も心地よく暮らせる「最適解」を、一緒に見つけていきましょう。
+                        広々としたLDKは、家族が自然と集まる暮らしの中心になります。<br>
+                        料理をしながら会話ができたり、勉強や仕事をしながら気配を感じられたりと、日常のふれあいが増えるのが大きな魅力です。<br>
+                        リビングに「ただいま！」の声が響けば、そこには安心感と笑顔が広がります。
                     </p>
                 </div>
             </div>
@@ -45,12 +45,12 @@
 
         <section class="c-parts-check">
             <div class="l-container">
-                <h3 class="c-parts-check__title"><span>＼ 日常生活の中で ／</span>こんなお悩みありませんか？</h3>
+                <h3 class="c-parts-check__title"><span>＼ LDKの ／</span>こんなお悩みありませんか？</h3>
                 <ul class="c-parts-check__list">
-                    <li><p>日中でもリビングが暗くて寒い…</p></li>
-                    <li><p>家事動線が悪く、移動に時間がかかる</p></li>
-                    <li><p>子どもが成長し、個室が必要になった</p></li>
-                    <li><p>壁が多く、空間が細切れで狭く感じる</p></li>
+                    <li><p>壁付けキッチンで、料理中に孤立してしまう…</p></li>
+                    <li><p>リビングが手狭で、家族がゆったり過ごせない</p></li>
+                    <li><p>収納が少なく、もので溢れて片付かない</p></li>
+                    <li><p>ダイニングとリビングの空間を分けたい</p></li>
                 </ul>
             </div>
         </section>
@@ -58,8 +58,8 @@
         <section class="c-number-feature">
             <div class="c-number-feature__head">
                 <div class="c-title">
-                    <span class="c-title--en">LAYOUT CHANGE</span>
-                    <h2 class="c-title--jp">間取り変更で、暮らしはこう変わる</h2>
+                    <span class="c-title--en">LDK RENOVATION</span>
+                    <h2 class="c-title--jp">LDKリフォームで、暮らしはこう変わる</h2>
                 </div>
             </div>
 
@@ -67,36 +67,36 @@
                 <div class="c-number-feature__list">
                     <div class="c-number-feature__item">
                         <div class="c-number-feature__img">
-                            <img src="<?php bloginfo('template_url');?>/img/madori-feature-img1.jpg" alt="木の温もりと障子が調和した和モダンなリビング">
+                            <img src="<?php bloginfo('template_url');?>/img/ldk-feature-img1.jpg" alt="木の温もりと障子が調和した和モダンなリビング">
                         </div>
                         <div class="c-number-feature__content">
-                            <h3 class="c-number-feature__content--title">光と風が通る、<br>明るく開放的なLDK</h3>
+                            <h3 class="c-number-feature__content--title">家族の顔が見える、<br>会話が弾む対面キッチン</h3>
                             <p class="c-number-feature__content--text">
-                            仕切りを取り払い、リビング・ダイニング・キッチンを一体化させることで、光と風が家中に広がり、開放感あふれる住空間が生まれます。自然と家族が集まる心地よい場所となり、会話やふれあいが増えるのも大きな魅力です。明るく風通しの良いLDKは、暮らしをより快適で豊かなものに変えてくれます。
+                            対面式のキッチンは、料理をしながら家族の顔が見え、自然と会話が生まれる空間になります。小さなお子さまの様子を見守りながら調理ができる安心感や、食事の準備と片付けを一緒に楽しめる利便性も魅力。日常の「おいしいね」「ありがとう」が交わされる場所として、家族の絆を深めてくれます。
                             </p>
                         </div>
                     </div>
 
                     <div class="c-number-feature__item">
                         <div class="c-number-feature__img">
-                            <img src="<?php bloginfo('template_url');?>/img/madori-feature-img2.jpg" alt="間接照明が柔らかく灯る木の書斎スペース">
+                            <img src="<?php bloginfo('template_url');?>/img/ldk-feature-img2.jpg" alt="間接照明が柔らかく灯る木の書斎スペース">
                         </div>
                         <div class="c-number-feature__content">
-                            <h3 class="c-number-feature__content--title">家事の時短を叶える<br>スムーズな生活動線</h3>
+                            <h3 class="c-number-feature__content--title">一体感のある、<br>広々とした開放的な空間</h3>
                             <p class="c-number-feature__content--text">
-                            キッチンから洗面、リビングへの動線を見直すだけで、家事効率はぐっと高まります。移動の手間を減らすことで時間に余裕が生まれ、家族との時間を大切にできるのもポイントです。収納や配置を工夫することで「使いやすさ」と「時短」を両立し、毎日の家事を快適にサポートします。
+                            リビングとダイニング、キッチンを一体化させることで、光と風が行き渡る明るく開放的な空間が生まれます。広がりのある空間は視線も通りやすく、家族がどこにいてもつながりを感じられるのが魅力。家族の会話が自然に広がり、のびのびと暮らせる住まいを実現します。
                             </p>
                         </div>
                     </div>
 
                     <div class="c-number-feature__item">
                         <div class="c-number-feature__img">
-                            <img src="<?php bloginfo('template_url');?>/img/madori-feature-img3.jpg" alt="吹き抜けリビングで家族が過ごす明るい木の家の内観">
+                            <img src="<?php bloginfo('template_url');?>/img/ldk-feature-img3.jpg" alt="吹き抜けリビングで家族が過ごす明るい木の家の内観">
                         </div>
                         <div class="c-number-feature__content">
-                            <h3 class="c-number-feature__content--title">家族の成長に対応する<br>柔軟な部屋づくり</h3>
+                            <h3 class="c-number-feature__content--title">「見せる収納」「隠す収納」で<br>スッキリ片付く</h3>
                             <p class="c-number-feature__content--text">
-                            子どもの成長や独立、在宅ワークや趣味のスペースなど、家族のライフスタイルは常に変化します。仕切りを追加して個室をつくったり、大きな一部屋として使ったりと、可変性のある空間は暮らしにゆとりをもたらします。将来を見据えた柔軟な間取りで、長く快適に住み続けられる家づくりを実現します。
+                            リビングやキッチンを快適に使うためには、収納の工夫が欠かせません。お気に入りの食器や雑貨は「見せる収納」でインテリアの一部に、生活感のあるものは「隠す収納」でスッキリします。使いやすさとデザイン性を両立させることで、片付けがしやすく整った暮らしを続けられます。
                             </p>
                         </div>
                     </div>
@@ -113,8 +113,8 @@
                     </picture>
                 </div>
                 <div class="c-title">
-                    <h2 class="c-title--en">LAYOUT CHANGE<br>CASE STUDIES</h2>
-                    <div class="c-title--jp">間取り変更の施工事例</div>
+                    <h2 class="c-title--en">LDK RENOVATION<br>CASE STUDIES</h2>
+                    <div class="c-title--jp">LDKリフォームの施工事例</div>
                 </div>
                 <div class="top-case__contentImg">
                     <picture>
@@ -198,19 +198,19 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td data-label="内容" class="c-construction__text">壁の撤去・新設工事</td>
+                            <td data-label="内容" class="c-construction__text">システムキッチン交換</td>
                             <td data-label="価格" class="c-construction__price">¥000,000</td>
                         </tr>
                         <tr>
-                            <td data-label="内容" class="c-construction__text">ドア・建具の交換、新設</td>
+                            <td data-label="内容" class="c-construction__text">間仕切り壁の撤去</td>
                             <td data-label="価格"class="c-construction__price">¥000,000</td>
                         </tr>
                         <tr>
-                            <td data-label="内容" class="c-construction__text">電気配線、スイッチ、コンセントの移設</td>
+                            <td data-label="内容" class="c-construction__text">床暖房の設置</td>
                             <td data-label="価格"class="c-construction__price">¥000,000</td>
                         </tr>
                         <tr>
-                            <td data-label="内容" class="c-construction__text">床・壁・天井の内装工事</td>
+                            <td data-label="内容" class="c-construction__text">内装（床・壁・天井）工事一式</td>
                             <td data-label="価格"class="c-construction__price">¥000,000</td>
                         </tr>
                     </tbody>

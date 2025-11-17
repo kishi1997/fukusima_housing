@@ -3293,3 +3293,17 @@ top-concept /
 		}
 	}
 }
+
+/* =================================================================
+  page-ldk / LDKリフォーム
+================================================================= */
+.page-ldk {
+
+  .c-pagehead-set {
+		background-image: url(../img/ldk-mv-bg.jpg);
+
+		@include max-screen($breakpoint-lg) {
+			border-left: 0;
+		}
+	}
+}

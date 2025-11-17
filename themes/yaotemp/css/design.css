@@ -3176,4 +3176,16 @@ top-concept /
   .page-madori .c-pagehead-set {
     border-left: 0;
   }
+}
+
+/* =================================================================
+  page-ldk / LDKリフォーム
+================================================================= */
+.page-ldk .c-pagehead-set {
+  background-image: url(../img/ldk-mv-bg.jpg);
+}
+@media screen and (max-width: 1280px) {
+  .page-ldk .c-pagehead-set {
+    border-left: 0;
+  }
 }/*# sourceMappingURL=design.css.map */
