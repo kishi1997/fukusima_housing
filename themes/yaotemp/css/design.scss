@@ -3321,3 +3321,17 @@ top-concept /
 		}
 	}
 }
+
+/* =================================================================
+  page-insulation / 断熱リフォーム
+================================================================= */
+.page-insulation {
+
+  .c-pagehead-set {
+		background-image: url(../img/insulation-mv-bg.jpg);
+
+		@include max-screen($breakpoint-lg) {
+			border-left: 0;
+		}
+	}
+}

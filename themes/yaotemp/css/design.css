@@ -3200,4 +3200,16 @@ top-concept /
   .page-large-renovation .c-pagehead-set {
     border-left: 0;
   }
+}
+
+/* =================================================================
+  page-insulation / 断熱リフォーム
+================================================================= */
+.page-insulation .c-pagehead-set {
+  background-image: url(../img/insulation-mv-bg.jpg);
+}
+@media screen and (max-width: 1280px) {
+  .page-insulation .c-pagehead-set {
+    border-left: 0;
+  }
 }/*# sourceMappingURL=design.css.map */
