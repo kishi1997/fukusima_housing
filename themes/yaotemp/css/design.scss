@@ -207,7 +207,7 @@ body {
   header /  ヘッダー
 ================================================================= */
 .header.scroll {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(247, 246, 240, 0.6);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.15);
@@ -301,6 +301,8 @@ body {
 
         .header-nav__link {
           position: relative;
+          font-size: clamp(1rem, 0.9vw, 1.4rem);
+          font-weight: 500;
         }
         .header-nav__link > p {
           position: relative;
@@ -318,8 +320,8 @@ body {
           width: 10px;
           height: 10px;
           margin: auto;
-          border-top: 2px solid #fff;
-          border-right: 2px solid #fff;
+          border-top: 2px solid $primary-color;
+          border-right: 2px solid $primary-color;
           transform: translateY(-2px) rotate(135deg);
           box-sizing: border-box;
         }
@@ -335,6 +337,11 @@ body {
           transform: translateY(0);
           transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
 
+          p {
+            padding: 6px;
+            font-size: 1.5rem;
+          }
+
           li {
             font-size: 1.5rem;
             text-align: left;
@@ -344,14 +351,14 @@ body {
               font-size: 1.3rem;
               border-top: 1px solid #e8e8e8;
               transition: color 1s;
-              background-color: #fff;
+              background-color: $base-color;
               color: $primary-color;
             }
 
             a:hover,
             a:focus {
               background-color: $primary-color;
-              color: #fff;
+              color: $base-color;
             }
           }
         }
@@ -2871,6 +2878,98 @@ top-concept /
 	}
 }
 
+.c-3col {
+  margin-top: 120px;
+  padding: 120px 0;
+  background-color: #efeee7;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .c-3col__head {
+    text-align: center;
+    margin-bottom: 80px;
+
+    @include max-screen($breakpoint-sm) {
+      margin-bottom: 60px;
+    }
+  }
+
+  .c-3col__list {
+    background-color: #efeee7;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    @include max-screen($breakpoint-md) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include max-screen($breakpoint-s) {
+      grid-template-columns: 1fr;
+    }
+
+    .c-3col__item {
+      display: flex;
+      flex-direction: column;
+      .c-3col__item--img {
+        position: relative;
+        margin-bottom: 16px;
+        img {
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+      }
+      // カテゴリータグ
+      .c-3col__item--tag {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 8px 12px;
+        font-size: 1.1rem;
+        color: #fff;
+        background-color: $primary-color;
+      }
+
+      .c-3col__item--meta {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 15px;
+        font-size: 1.4rem;
+        padding: 0 16px;
+      }
+
+      .c-3col__item--title {
+        margin-bottom: 16px;
+        padding-bottom: 16px;
+        font-size: 1.8rem;
+        font-weight: bold;
+        line-height: 1;
+        margin: 0 16px 16px 16px;
+        border-bottom: 1px solid #d2cdc6;
+        @include max-screen($breakpoint-s) {
+          font-size: 1.6rem;
+        }
+      }
+
+      .c-3col__item--text {
+        margin: 0 16px;
+        line-height: 1.5;
+      }
+    }
+  }
+  .c-3col__btn {
+    margin-top: 80px;
+    @include max-screen($breakpoint-sm) {
+      margin-top: 80px;
+    }
+  }
+}
+
 .c-construction {
   margin: 120px 0;
 
@@ -2986,12 +3085,12 @@ top-concept /
 }
 
 /* =================================================================
-  page-about / はじめての方へ
+  page-beginner / はじめての方へ
 ================================================================= */
-.page-about {
+.page-beginner {
 
 	.c-pagehead-set {
-		background-image: url(../img/about-mv-bg.jpg);
+		background-image: url(../img/beginner-mv-bg.jpg);
 
 		@include max-screen($breakpoint-lg) {
 			border-left: 0;
@@ -3000,19 +3099,19 @@ top-concept /
 }
 
 /* =================================================================
-  page-reason / 選ばれる理由
+  page-feature / 選ばれる理由
 ================================================================= */
-.page-reason {
+.page-feature {
 
 	.c-pagehead-set {
-		background-image: url(../img/reason-mv-bg.jpg);
+		background-image: url(../img/feature-mv-bg.jpg);
 
 		@include max-screen($breakpoint-lg) {
 			border-left: 0;
 		}
 	}
 
-  .reason-staff {
+  .feature-staff {
     position: relative;
     margin-top: 120px;
     padding: 120px 0;
@@ -3023,7 +3122,7 @@ top-concept /
       padding: 80px 0;
 		}
 
-    .reason-staff__head {
+    .feature-staff__head {
       display: flex;
       gap: 60px;
       align-items: center;
@@ -3037,21 +3136,21 @@ top-concept /
       }
     }
 
-    .reason-staff__wrapper {
+    .feature-staff__wrapper {
       position: relative;
       height: auto;
       width: 100%;
       margin-inline: auto;
 
-      .reason-staff__list {
+      .feature-staff__list {
         display: block;
         width: 100%;
         box-sizing: border-box;
 
-        .reason-staff__card {
+        .feature-staff__card {
           margin: 0 40px;
 
-          .reason-staff__card--img {
+          .feature-staff__card--img {
             max-width: 280px;
             margin-bottom: 16px;
             margin-inline: auto;
@@ -3062,7 +3161,7 @@ top-concept /
             }
           }
 
-          .reason-staff__card--body {
+          .feature-staff__card--body {
   
             span{
               display: block;
@@ -3071,7 +3170,7 @@ top-concept /
               text-align: center;
             }
     
-            .reason-staff__card--title {
+            .feature-staff__card--title {
               margin: 10px 0 16px;
               padding-bottom: 16px;
               font-size: 1.8rem;
@@ -3214,14 +3313,26 @@ top-concept /
       }
     }
   }
-  .reason-voice {
+  .feature-voice {
     padding: 80px 0;
 
     @include max-screen($breakpoint-md) {
       padding: 80px 0 0;
     }
+
+    .feature-voice__btn {
+      margin-top: 80px;
+
+      @include max-screen($breakpoint-sm) {
+        margin-top: 60px;
+      }
+
+      .c-btn {
+        max-width: 300px;
+      }
+    }
   }
-  .reason-interview {
+  .feature-interview {
     padding: 0 0 120px;
 
     @include max-screen($breakpoint-md) {
@@ -3249,7 +3360,7 @@ top-concept /
     }
   }
 
-  .reason-message {
+  .feature-message {
     padding: 80px 0 120px;
 
     @include max-screen($breakpoint-sm) {
@@ -3257,22 +3368,88 @@ top-concept /
     }
   }
 
-  .reason-service {
+  .feature-service {
     margin: 120px 0;
 
     @include max-screen($breakpoint-sm) {
       margin: 80px 0;
     }
+
+    .feature-service__semiTitle {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 40px;
+      font-size: 2.2rem;
+      font-weight: 500;
+
+      .line {
+        display: inline-block;
+        width: 40px;
+        height: 1px;
+        background-color: $primary-color;
+      }
+    }
+
+    .feature-service__list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 80px 30px;
+      list-style: none;
+      padding: 0;
+      margin-bottom: 40px;
+
+      @include max-screen($breakpoint-sm) {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 60px;
+      }
+
+      @include max-screen($breakpoint-s) {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .feature-service__item .c-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: unset;
+        gap: 14px;
+        max-width: unset;
+        padding: 20px;
+        background-color: $primary-color;
+        border-radius: 5px;
+
+        img {
+          width: 100%;
+        }
+
+        .feature-service__content {
+          color: #fff;
+
+          .feature-service__title {
+            border-bottom: 1px solid;
+            padding-bottom: 10px;
+          }          
+
+          .c-btn--circle {
+            position: static;
+            margin-top: 20px;
+            margin-left: auto;
+          }
+        }
+      }
+    }
   }
 }
 
 /* =================================================================
-  page-washitsu / 和室を洋室に
+  page-stylechange / 和室を洋室に
 ================================================================= */
-.page-washitsu {
+.page-stylechange {
 
   .c-pagehead-set {
-		background-image: url(../img/washitsu-mv-bg.jpg);
+		background-image: url(../img/stylechange-mv-bg.jpg);
 
 		@include max-screen($breakpoint-lg) {
 			border-left: 0;
@@ -3281,12 +3458,12 @@ top-concept /
 }
 
 /* =================================================================
-  page-madori / 間取り変更
+  page-planchange / 間取り変更
 ================================================================= */
-.page-madori {
+.page-planchange {
 
   .c-pagehead-set {
-		background-image: url(../img/madori-mv-bg.jpg);
+		background-image: url(../img/planchange-mv-bg.jpg);
 
 		@include max-screen($breakpoint-lg) {
 			border-left: 0;
@@ -3309,12 +3486,12 @@ top-concept /
 }
 
 /* =================================================================
-  page-large-renovation / 大規模リノベ
+  page-renovation / 大規模リノベ
 ================================================================= */
-.page-large-renovation {
+.page-renovation {
 
   .c-pagehead-set {
-		background-image: url(../img/large-renovation-mv-bg.jpg);
+		background-image: url(../img/renovation-mv-bg.jpg);
 
 		@include max-screen($breakpoint-lg) {
 			border-left: 0;
@@ -3337,12 +3514,12 @@ top-concept /
 }
 
 /* =================================================================
-  page-barrier-free / バリアフリー
+  page-barrierfree / バリアフリー
 ================================================================= */
-.page-barrier-free {
+.page-barrierfree {
 
   .c-pagehead-set {
-		background-image: url(../img/barrier-free-mv-bg.jpg);
+		background-image: url(../img/barrierfree-mv-bg.jpg);
 
 		@include max-screen($breakpoint-lg) {
 			border-left: 0;
@@ -3351,12 +3528,12 @@ top-concept /
 }
 
 /* =================================================================
-  page-water-area / 水回りリフォーム
+  page-waterarea / 水回りリフォーム
 ================================================================= */
-.page-water-area {
+.page-waterarea {
 
   .c-pagehead-set {
-		background-image: url(../img/water-area-mv-bg.jpg);
+		background-image: url(../img/waterarea-mv-bg.jpg);
 
 		@include max-screen($breakpoint-lg) {
 			border-left: 0;

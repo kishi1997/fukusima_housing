@@ -192,9 +192,9 @@ $(function () {
   });
 });
 
-//下層ページ - reason
+//下層ページ - feature
 $(function () {
-  $(".reason-staff__list").slick({
+  $(".feature-staff__list").slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: true,
@@ -251,3 +251,16 @@ function adjustBodyPadding() {
 
 window.addEventListener("resize", adjustBodyPadding);
 window.addEventListener("load", adjustBodyPadding);
+
+
+// ヘッダー　背景変化
+const header = document.querySelector("header");
+window.addEventListener("scroll", () => {
+  // 垂直方向のスクロール量
+  const scrollY = window.scrollY;
+  if (scrollY <= 0) {
+    header.classList.remove("scroll");
+  } else {
+    header.classList.add("scroll");
+  }
+});

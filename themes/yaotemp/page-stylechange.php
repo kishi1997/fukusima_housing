@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="page-washitsu">
+<div class="page-stylechange">
     <div class="c-pagehead-set">
         <div class="c-pagehead-text">
             <p><?php echo $slug = get_post(get_the_ID())->post_name; ?></p>
@@ -66,7 +66,7 @@
                 <div class="c-number-feature__list">
                     <div class="c-number-feature__item">
                         <div class="c-number-feature__img">
-                            <img src="<?php bloginfo('template_url');?>/img/washitsu-feature-img1.jpg" alt="木の温もりと障子が調和した和モダンなリビング">
+                            <img src="<?php bloginfo('template_url');?>/img/stylechange-feature-img1.jpg" alt="木の温もりと障子が調和した和モダンなリビング">
                         </div>
                         <div class="c-number-feature__content">
                             <h3 class="c-number-feature__content--title">掃除やメンテナンスが楽な<br>フローリング空間</h3>
@@ -78,7 +78,7 @@
 
                     <div class="c-number-feature__item">
                         <div class="c-number-feature__img">
-                            <img src="<?php bloginfo('template_url');?>/img/washitsu-feature-img2.jpg" alt="間接照明が柔らかく灯る木の書斎スペース">
+                            <img src="<?php bloginfo('template_url');?>/img/stylechange-feature-img2.jpg" alt="間接照明が柔らかく灯る木の書斎スペース">
                         </div>
                         <div class="c-number-feature__content">
                             <h3 class="c-number-feature__content--title">ライフスタイルに合わせた<br>多目的な活用</h3>
@@ -90,7 +90,7 @@
 
                     <div class="c-number-feature__item">
                         <div class="c-number-feature__img">
-                            <img src="<?php bloginfo('template_url');?>/img/washitsu-feature-img3.jpg" alt="吹き抜けリビングで家族が過ごす明るい木の家の内観">
+                            <img src="<?php bloginfo('template_url');?>/img/stylechange-feature-img3.jpg" alt="吹き抜けリビングで家族が過ごす明るい木の家の内観">
                         </div>
                         <div class="c-number-feature__content">
                             <h3 class="c-number-feature__content--title">LDKと一体化する開放的な間取り</h3>
@@ -103,70 +103,62 @@
             </div>
         </section>
 
-        <section class="top-case">
-            <div class="top-case__upper">
-                <div class="top-case__bg">
-                    <picture>
-                        <source media="(max-width: 480px)" srcset="<?php bloginfo('template_url');?>/img/top-case-bgSp.png">
-                        <img src="<?php bloginfo('template_url');?>/img/top-case-bg.png" alt="施工事例・お客様の声背景画像">
-                    </picture>
-                </div>
+        <section class="c-3col">
+            <div class="c-3col__head">
                 <div class="c-title">
-                    <h2 class="c-title--en">JAPANESE STYLE <br class="u-sp">RENOVATION <br>CASE STUDIES</h2>
-                    <div class="c-title--jp">和室リフォームの施工事例</div>
-                </div>
-                <div class="top-case__contentImg">
-                    <picture>
-                        <source media="(max-width: 480px)"
-                            srcset="<?php bloginfo('template_url');?>/img/top-case-contentSp.png">
-                        <img src="<?php bloginfo('template_url');?>/img/top-case-content.png" alt="施工事例・お客様の声コンテンツ画像">
-                    </picture>
+                    <span class="c-title--en">WORK</span>
+                    <h2 class="c-title--jp">和室リフォームの施工事例</h2>
                 </div>
             </div>
-            <div class="top-case__bottom">
-                <div class="l-container">
-                    <div class="top-case__list">
-                        <div class="top-case__item">
-                            <div class="top-case__item--img">
+            <div class="l-container">
+                <div class="c-3col__list">
+                    <div class="c-3col__item">
+                        <a href="<?php bloginfo('url'); ?>//">
+                            <div class="c-3col__item--img">
                                 <img src="<?php bloginfo('template_url');?>/img/top-case-img1.jpg" alt="機能性も重視した外構デザイン">
-                                <span class="top-case__item--tag">リフォーム</span>
+                                <span class="c-3col__item--tag">リフォーム</span>
                             </div>
-                            <div class="top-case__item--meta">
-                                <span class="top-case__item--place">千葉県A様</span>
+                            <div class="c-3col__item--meta">
+                                <span class="c-3col__item--place">千葉県A様</span>
                             </div>
-                            <h3 class="top-case__item--title">住まいの見学と暮らしの方法</h3>
-                            <p class="top-case__item--text">
-                                家族が安心して過ごせる場所、喜びや笑顔があふれる場所、そして未来へと受け継がれる特別な場所を目指して。
-                            </p>
+                                <h3 class="c-3col__item--title">住まいの見学と暮らしの方法</h3>
+                                <p class="c-3col__item--text">
+                                    家族が安心して過ごせる場所、喜びや笑顔があふれる場所、そして未来へと受け継がれる特別な場所を目指して。
+                                </p>
+                            </a>
                         </div>
-                        <div class="top-case__item">
-                            <div class="top-case__item--img">
-                                <img src="<?php bloginfo('template_url');?>/img/top-case-img2.jpg" alt="高低差のある玄関への出入りをデザイン">
-                                <span class="top-case__item--tag">リフォーム</span>
-                            </div>
-                            <div class="top-case__item--meta">
-                                <span class="top-case__item--place">埼玉県A様</span>
-                            </div>
-                            <h3 class="top-case__item--title">住まいの見学と暮らしの方法</h3>
-                            <p class="top-case__item--text">
-                                家族が安心して過ごせる場所、喜びや笑顔があふれる場所、そして未来へと受け継がれる特別な場所を目指して。
-                            </p>
+                        <div class="c-3col__item">
+                            <a href="<?php bloginfo('url'); ?>//">
+                                <div class="c-3col__item--img">
+                                    <img src="<?php bloginfo('template_url');?>/img/top-case-img2.jpg" alt="高低差のある玄関への出入りをデザイン">
+                                    <span class="c-3col__item--tag">リフォーム</span>
+                                </div>
+                                <div class="c-3col__item--meta">
+                                    <span class="c-3col__item--place">埼玉県A様</span>
+                                </div>
+                                <h3 class="c-3col__item--title">住まいの見学と暮らしの方法</h3>
+                                <p class="c-3col__item--text">
+                                    家族が安心して過ごせる場所、喜びや笑顔があふれる場所、そして未来へと受け継がれる特別な場所を目指して。
+                                </p>
+                            </a>
                         </div>
-                        <div class="top-case__item">
-                            <div class="top-case__item--img">
-                                <img src="<?php bloginfo('template_url');?>/img/top-case-img3.jpg" alt="植物を楽しめるリノベーションガーデン">
-                                <span class="top-case__item--tag">リフォーム</span>
-                            </div>
-                            <div class="top-case__item--meta">
-                                <span class="top-case__item--place">東京都A様</span>
-                            </div>
-                            <h3 class="top-case__item--title">住まいの見学と暮らしの方法</h3>
-                            <p class="top-case__item--text">
-                                家族が安心して過ごせる場所、喜びや笑顔があふれる場所、そして未来へと受け継がれる特別な場所を目指して。
-                            </p>
+                        <div class="c-3col__item">
+                            <a href="<?php bloginfo('url'); ?>//">
+                                <div class="c-3col__item--img">
+                                    <img src="<?php bloginfo('template_url');?>/img/top-case-img3.jpg" alt="植物を楽しめるリノベーションガーデン">
+                                    <span class="c-3col__item--tag">リフォーム</span>
+                                </div>
+                                <div class="c-3col__item--meta">
+                                    <span class="c-3col__item--place">東京都A様</span>
+                                </div>
+                                <h3 class="c-3col__item--title">住まいの見学と暮らしの方法</h3>
+                                <p class="c-3col__item--text">
+                                    家族が安心して過ごせる場所、喜びや笑顔があふれる場所、そして未来へと受け継がれる特別な場所を目指して。
+                                </p>
+                            </a>
                         </div>
                     </div>
-                    <div class="top-case__btn">
+                    <div class="c-3col__btn">
                         <a href="<?php bloginfo('url'); ?>/news/" class="c-btn">もっとみる
                             <div class="c-btn--circle">
                                 <span class="c-btn--circle-arrow">

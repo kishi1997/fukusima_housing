@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="page-reason">
+<div class="page-feature">
     <div class="c-pagehead-set">
         <div class="c-pagehead-text">
             <p>The feature</p>
@@ -41,7 +41,7 @@
             </div>
         </section>
 
-        <section class="c-2col reason-choose">
+        <section class="c-2col feature-choose">
             <div class="c-2col__head">
                 <div class="c-title">
                     <span class="c-title--en">WHY CHOOSE US</span>
@@ -52,7 +52,7 @@
             <div class="l-container">
                 <div class="c-2col__item">
                     <div class="c-2col__img">
-                        <img src="<?php bloginfo('template_url');?>/img/reason-choose-img1.jpg" alt="明るく開放的なリビングダイニングと木目調のインテリア">
+                        <img src="<?php bloginfo('template_url');?>/img/feature-choose-img1.jpg" alt="明るく開放的なリビングダイニングと木目調のインテリア">
                     </div>
                     <div class="c-2col__content">
                         <h3 class="c-2col__content--title">
@@ -66,67 +66,67 @@
             </div>
         </section>
 
-        <section class="reason-staff" id="reason-staff">
+        <section class="feature-staff" id="feature-staff">
             <div class="l-container">
-                <div class="reason-staff__head">
+                <div class="feature-staff__head">
                     <div class="c-title">
                         <h2 class="c-title--en">STAFF</h2>
                         <div class="c-title--jp">
                             スタッフ紹介
                         </div>
                     </div>
-                    <p class="reason-staff__desc">
+                    <p class="feature-staff__desc">
                         デザイン・間取り・性能のすべてを一新。思い出が詰まった家の骨格は活かし、<br />
                         新築同様の快適さと感動をご提供。住まいの可能性を引き出します。
                     </p>
                 </div>
 
-                <div class="reason-staff__wrapper">
-                    <ul class="reason-staff__list">
-                        <li class="reason-staff__card">
-                            <figure class="reason-staff__card--img">
-                                <img src="<?php bloginfo('template_url');?>/img/reason-staff-img1.jpg" alt="吉田光孝">
+                <div class="feature-staff__wrapper">
+                    <ul class="feature-staff__list">
+                        <li class="feature-staff__card">
+                            <figure class="feature-staff__card--img">
+                                <img src="<?php bloginfo('template_url');?>/img/feature-staff-img1.jpg" alt="吉田光孝">
                             </figure>
-                            <div class="reason-staff__card--body">
-                                <span class="reason-staff__card--position">リフォームアドバイザー</span>
-                                <span class="reason-staff__card--title">吉田光孝</span>
+                            <div class="feature-staff__card--body">
+                                <span class="feature-staff__card--position">リフォームアドバイザー</span>
+                                <span class="feature-staff__card--title">吉田光孝</span>
                                 <p>入社して16年の経験とノウハウを活かし、お客様のご要望に親切、丁寧に対応します。<br><br>
                                 【趣味】釣り</p>
                             </div>
                         </li>
-                        <li class="reason-staff__card">
-                            <figure class="reason-staff__card--img">
-                                <img src="<?php bloginfo('template_url');?>/img/reason-staff-img2.jpg" alt="スタッフ画像２">
+                        <li class="feature-staff__card">
+                            <figure class="feature-staff__card--img">
+                                <img src="<?php bloginfo('template_url');?>/img/feature-staff-img2.jpg" alt="スタッフ画像２">
                             </figure>
-                            <div class="reason-staff__card--body">
-                                <span class="reason-staff__card--position">工務</span>
-                                <span class="reason-staff__card--title">原田幸雄</span>
+                            <div class="feature-staff__card--body">
+                                <span class="feature-staff__card--position">工務</span>
+                                <span class="feature-staff__card--title">原田幸雄</span>
                                 <p>老舗建設会社での長年の現場監督の経験を活かし、リフォーム工事がスムーズかつ万全に進むよう見守ります。<br><br>
                                 【趣味】スポーツ観戦</p>
                             </div>
                         </li>
-                        <li class="reason-staff__card">
-                            <figure class="reason-staff__card--img">
-                                <img src="<?php bloginfo('template_url');?>/img/reason-staff-img3.jpg" alt="スタッフ画像3">
+                        <li class="feature-staff__card">
+                            <figure class="feature-staff__card--img">
+                                <img src="<?php bloginfo('template_url');?>/img/feature-staff-img3.jpg" alt="スタッフ画像3">
                             </figure>
-                            <div class="reason-staff__card--body">
-                                <span class="reason-staff__card--position">職人</span>
-                                <span class="reason-staff__card--title">スタッフ名</span>
+                            <div class="feature-staff__card--body">
+                                <span class="feature-staff__card--position">職人</span>
+                                <span class="feature-staff__card--title">スタッフ名</span>
                                 <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                             </div>
                         </li>
-                        <li class="reason-staff__card">
-                            <figure class="reason-staff__card--img">
-                                <img src="<?php bloginfo('template_url');?>/img/reason-staff-img3.jpg" alt="スタッフ画像3">
+                        <li class="feature-staff__card">
+                            <figure class="feature-staff__card--img">
+                                <img src="<?php bloginfo('template_url');?>/img/feature-staff-img3.jpg" alt="スタッフ画像3">
                             </figure>
-                            <div class="reason-staff__card--body">
-                                <span class="reason-staff__card--position">職人</span>
-                                <span class="reason-staff__card--title">スタッフ名</span>
+                            <div class="feature-staff__card--body">
+                                <span class="feature-staff__card--position">職人</span>
+                                <span class="feature-staff__card--title">スタッフ名</span>
                                 <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                             </div>
                         </li>
                     </ul>
-                    <div class="reason-staff__slick">
+                    <div class="feature-staff__slick">
                         <button class="c-slick__arrows--prev slick-prev"><span class="c-slick__arrows--icon"></span></button>
                         <button class="c-slick__arrows--next slick-next"><span class="c-slick__arrows--icon"></span></button>
                     </div>
@@ -134,11 +134,11 @@
             </div>
         </section>
 
-        <section class="reason-voice c-2col">
+        <section class="feature-voice c-2col">
             <div class="l-container">
                 <div class="c-2col__item">
                     <div class="c-2col__img">
-                        <img src="<?php bloginfo('template_url');?>/img/reason-voice-img1.jpg" alt="白を基調とした洗練された雰囲気のダイニング">
+                        <img src="<?php bloginfo('template_url');?>/img/feature-voice-img1.jpg" alt="白を基調とした洗練された雰囲気のダイニング">
                     </div>
                     <div class="c-2col__content">
                         <h3 class="c-2col__content--title">
@@ -157,24 +157,33 @@
                 </div>
                 <div class="c-column__list">
                     <div class="c-column__item">
-                        <figure><img src="<?php bloginfo('template_url');?>/img/reason-voice-img2.jpg" alt="明るく開放的なリビングダイニングと木目調のインテリア"></figure>
+                        <figure><img src="<?php bloginfo('template_url');?>/img/feature-voice-img2.jpg" alt="明るく開放的なリビングダイニングと木目調のインテリア"></figure>
                         <div class="c-column__body">
                             <h4>予算オーバー？正直な見積もりのおかげで、最高のキッチンになりました</h4>
                             <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                         </div>
                     </div>
                     <div class="c-column__item">
-                        <figure><img src="<?php bloginfo('template_url');?>/img/reason-voice-img3.jpg" alt="明るく開放的なリビングダイニングと木目調のインテリア"></figure>
+                        <figure><img src="<?php bloginfo('template_url');?>/img/feature-voice-img3.jpg" alt="明るく開放的なリビングダイニングと木目調のインテリア"></figure>
                         <div class="c-column__body">
                             <h4>「この壁は壊せません」その正直な一言が、信頼の始まりでした</h4>
                             <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                         </div> 
                     </div>
                 </div>
+                <div class="feature-voice__btn">
+                    <a href="<?php bloginfo('url'); ?>/voice/" class="c-btn">お客様の声をもっと見る
+                        <div class="c-btn--circle">
+                            <span class="c-btn--circle-arrow">
+                                <img src="<?php bloginfo('template_url');?>/img/ico-right-arrow.svg" alt="">
+                            </span>
+                        </div>
+                    </a>
+                </div>
             </div>
         </section>
 
-        <section class="reason-interview c-2col">
+        <section class="feature-interview c-2col">
             <div class="l-container">
                 <div class="c-2col__item">
                     <div class="c-2col__content">
@@ -186,7 +195,7 @@
                         </p>
                     </div>
                     <div class="c-2col__img">
-                        <img src="<?php bloginfo('template_url');?>/img/reason-interview-img1.jpg" alt="明るく開放的なリビングダイニングと木目調のインテリア">
+                        <img src="<?php bloginfo('template_url');?>/img/feature-interview-img1.jpg" alt="明るく開放的なリビングダイニングと木目調のインテリア">
                     </div>
                 </div>
                 <div class="c-column__head">
@@ -197,14 +206,14 @@
                 </div>
                 <div class="c-column__list">
                     <div class="c-column__item">
-                        <figure><img src="<?php bloginfo('template_url');?>/img/reason-interview-img2.jpg" alt="明るく開放的なリビングダイニングと木目調のインテリア"></figure>
+                        <figure><img src="<?php bloginfo('template_url');?>/img/feature-interview-img2.jpg" alt="明るく開放的なリビングダイニングと木目調のインテリア"></figure>
                         <div class="c-column__body">
                             <h4>完成から5年。今も続く安心感と、暮らしに馴染む家</h4>
                             <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                         </div>
                     </div>
                     <div class="c-column__item">
-                        <figure><img src="<?php bloginfo('template_url');?>/img/reason-interview-img3.jpg" alt="明るく開放的なリビングダイニングと木目調のインテリア"></figure>
+                        <figure><img src="<?php bloginfo('template_url');?>/img/feature-interview-img3.jpg" alt="明るく開放的なリビングダイニングと木目調のインテリア"></figure>
                         <div class="c-column__body">
                             <h4>「ちょっと調子が…」電話一本ですぐ来てくれる、まるで家族のような存在です</h4>
                             <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
@@ -214,7 +223,7 @@
             </div>
         </section>
 
-        <section class="top-message reason-message">
+        <section class="top-message feature-message">
             <div class="l-container">
                 <div class="top-message__content">
                     <div class="c-title u-sp">
@@ -257,103 +266,129 @@
             </div>
         </section>
 
-        <section class="top-service reason-service">
+        <section class="feature-service">
             <div class="l-container">
                 <div class="c-title">
                     <h2 class="c-title--en">SERVICE</h2>
                     <div class="c-title--jp">リフォームサービス</div>
                 </div>
-                <h3 class="top-service__semiTitle"><span class="line"></span>増改築リフォーム</h3>
-                <ul class="top-service__list">
-                    <li class="top-service__item">
-                        <figure class="top-service__figure">
-                            <img src="<?php bloginfo('template_url');?>/img/top-service-img1.jpg" alt="和室から洋室にリフォームされた部屋"
-                                class="top-service__img">
-                        </figure>
-                        <div class="top-service__content">
-                            <h3 class="top-service__title">和室を洋室に</h3>
-                            <p class="top-service__text">
-                                畳の和室をフローリングの洋室へ変更します。リビングと繋げて広くしたり、クローゼットを新設したり、今の暮らしに合う価値ある一部屋をご提案します。
-                            </p>
-                        </div>
+                <h3 class="feature-service__semiTitle"><span class="line"></span>増改築リフォーム</h3>
+                <ul class="feature-service__list feature-service__list">
+                    <li class="feature-service__item">
+                        <a href="<?php bloginfo('url'); ?>/reform/stylechange/" class="c-btn">
+                            <figure class="feature-service__figure">
+                                <img src="<?php bloginfo('template_url');?>/img/top-service-img1.jpg" alt="和室から洋室にリフォームされた部屋"
+                                class="feature-service__img">
+                            </figure>
+                            <div class="feature-service__content">
+                                <h3 class="feature-service__title">和室を洋室に</h3>
+                                <div class="c-btn--circle">
+                                    <span class="c-btn--circle-arrow">
+                                        <img src="<?php bloginfo('template_url');?>/img/ico-right-arrow.svg" alt="">
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
                     </li>
-                    <li class="top-service__item">
-                        <figure class="top-service__figure">
-                            <img src="<?php bloginfo('template_url');?>/img/top-service-img2.jpg" alt="壁を取り払い開放的になったリビング"
-                                class="top-service__img">
-                        </figure>
-                        <div class="top-service__content">
-                            <h3 class="top-service__title">間取り変更</h3>
-                            <p class="top-service__text">
-                                部屋の壁を取り払って開放的なリビングへ。家事動線なども見直し、家族みんなが快適に過ごせる、暮らしの中心となる間取りを実現します。
-                            </p>
-                        </div>
+                    <li class="feature-service__item">
+                        <a href="<?php bloginfo('url'); ?>/reform/planchange/" class="c-btn">
+                            <figure class="feature-service__figure">
+                                <img src="<?php bloginfo('template_url');?>/img/top-service-img2.jpg" alt="壁を取り払い開放的になったリビング"
+                                    class="feature-service__img">
+                            </figure>
+                            <div class="feature-service__content">
+                                <h3 class="feature-service__title">間取り変更</h3>
+                                <div class="c-btn--circle">
+                                    <span class="c-btn--circle-arrow">
+                                        <img src="<?php bloginfo('template_url');?>/img/ico-right-arrow.svg" alt="">
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
                     </li>
-                    <li class="top-service__item">
-                        <figure class="top-service__figure">
-                            <img src="<?php bloginfo('template_url');?>/img/top-service-img3.jpg" alt="対面キッチンにリフォームされたモダンなLDK"
-                                class="top-service__img">
-                        </figure>
-                        <div class="top-service__content">
-                            <h3 class="top-service__title">LDKリフォーム</h3>
-                            <p class="top-service__text">
-                                家族が一番長く過ごすLDKを、もっと心地よく楽しい空間に。対面キッチンへの変更など、家族の会話と笑顔が生まれるリフォームをご提案します。
-                            </p>
-                        </div>
+                    <li class="feature-service__item">
+                        <a href="<?php bloginfo('url'); ?>/reform/ldk/" class="c-btn">
+                            <figure class="feature-service__figure">
+                                <img src="<?php bloginfo('template_url');?>/img/top-service-img3.jpg" alt="対面キッチンにリフォームされたモダンなLDK"
+                                    class="feature-service__img">
+                            </figure>
+                            <div class="feature-service__content">
+                                <h3 class="feature-service__title">LDKリフォーム</h3>
+                                <div class="c-btn--circle">
+                                    <span class="c-btn--circle-arrow">
+                                        <img src="<?php bloginfo('template_url');?>/img/ico-right-arrow.svg" alt="">
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
                     </li>
-                    <li class="top-service__item">
-                        <figure class="top-service__figure">
-                            <img src="<?php bloginfo('template_url');?>/img/top-service-img4.jpg" alt="大規模リノベーションで一新されたリビング"
-                                class="top-service__img">
-                        </figure>
-                        <div class="top-service__content">
-                            <h3 class="top-service__title">大規模リノベ</h3>
-                            <p class="top-service__text">
-                                デザイン・間取り・性能のすべてを一新。思い出が詰まった家の骨格は活かし、新築同様の快適さと感動をご提供。住まいの可能性を引き出します。
-                            </p>
-                        </div>
+                    <li class="feature-service__item">
+                        <a href="<?php bloginfo('url'); ?>/reform/renovation/" class="c-btn">
+                            <figure class="feature-service__figure">
+                                <img src="<?php bloginfo('template_url');?>/img/top-service-img4.jpg" alt="大規模リノベーションで一新されたリビング"
+                                    class="feature-service__img">
+                            </figure>
+                            <div class="feature-service__content">
+                                <h3 class="feature-service__title">大規模リノベ</h3>
+                                <div class="c-btn--circle">
+                                    <span class="c-btn--circle-arrow">
+                                        <img src="<?php bloginfo('template_url');?>/img/ico-right-arrow.svg" alt="">
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
                     </li>
-                    <li class="top-service__item">
-                        <figure class="top-service__figure">
-                            <img src="<?php bloginfo('template_url');?>/img/top-service-img5.jpg" alt="断熱リフォームで快適になったリビング"
-                                class="top-service__img">
-                        </figure>
-                        <div class="top-service__content">
-                            <h3 class="top-service__title">断熱リフォーム</h3>
-                            <p class="top-service__text">
-                                壁や窓の断熱性を高め「夏は涼しく、冬は暖かい」快適な暮らしへ。光熱費を削減し、一年を通して健康的で経済的な住環境を整えます。
-                            </p>
-                        </div>
+                    <li class="feature-service__item">
+                        <a href="<?php bloginfo('url'); ?>/reform/insulation/" class="c-btn">
+                            <figure class="feature-service__figure">
+                                <img src="<?php bloginfo('template_url');?>/img/top-service-img5.jpg" alt="断熱リフォームで快適になったリビング"
+                                    class="feature-service__img">
+                            </figure>
+                            <div class="feature-service__content">
+                                <h3 class="feature-service__title">断熱リフォーム</h3>
+                                <div class="c-btn--circle">
+                                    <span class="c-btn--circle-arrow">
+                                        <img src="<?php bloginfo('template_url');?>/img/ico-right-arrow.svg" alt="">
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
                     </li>
-                    <li class="top-service__item">
-                        <figure class="top-service__figure">
-                            <img src="<?php bloginfo('template_url');?>/img/top-service-img6.jpg" alt="スロープが設置されバリアフリー化された玄関"
-                                class="top-service__img">
-                        </figure>
-                        <div class="top-service__content">
-                            <h3 class="top-service__title">バリアフリー</h3>
-                            <p class="top-service__text">
-                                玄関のスロープや手すりの設置、気になる段差の解消など、ご家族の誰もが安全に暮らせる住まいへ。将来を見据えた優しい家づくりです。
-                            </p>
-                        </div>
+                    <li class="feature-service__item">
+                        <a href="<?php bloginfo('url'); ?>/reform/barrierfree/" class="c-btn">
+                            <figure class="feature-service__figure">
+                                <img src="<?php bloginfo('template_url');?>/img/top-service-img6.jpg" alt="スロープが設置されバリアフリー化された玄関"
+                                    class="feature-service__img">
+                            </figure>
+                            <div class="feature-service__content">
+                                <h3 class="feature-service__title">バリアフリー</h3>
+                                <div class="c-btn--circle">
+                                    <span class="c-btn--circle-arrow">
+                                        <img src="<?php bloginfo('template_url');?>/img/ico-right-arrow.svg" alt="">
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
                     </li>
                 </ul>
 
-                <div class="top-service__reform">
-                    <h3 class="top-service__semiTitle"><span class="line"></span>水回りリフォーム</h3>
-                    <div class="top-service__reform-container">
-                        <div class="top-service__reform-content">
-                            <figure class="top-service__reform-figure">
+                <h3 class="feature-service__semiTitle"><span class="line"></span>水回りリフォーム</h3>
+                <div class="feature-service__list feature-service__list">
+                    <div class="feature-service__item">
+                        <a href="<?php bloginfo('url'); ?>/reform/waterarea/" class="c-btn">
+                            <figure class="feature-service__figure">
                                 <img src="<?php bloginfo('template_url');?>/img/top-service-img7.jpg" alt="モダンな門柱と緑豊かな植栽"
-                                    class="top-service__reform-img">
+                                class="feature-service__img">
                             </figure>
-                            <div class="top-service__reform-text-area">
-                                <h3 class="top-service__reform-title">キッチン・お風呂・トイレ・洗面台</h3>
-                                <p class="top-service__reform-text">
-                                    毎日の暮らしに欠かせない水回り空間だからこそ、もっと快適に、もっと楽しく。私たちは、ただ設備を新しくするだけでなく、家事動線や収納計画まで考え抜いた、"暮らしが豊かになる"水回りリフォームをご提案します。小さな工事から、ぜひお気軽にご相談ください。
-                                </p>
+                            <div class="feature-service__content">
+                                <h3 class="feature-service__title">キッチン・お風呂・トイレ・洗面台</h3>
+                                <div class="c-btn--circle">
+                                    <span class="c-btn--circle-arrow">
+                                        <img src="<?php bloginfo('template_url');?>/img/ico-right-arrow.svg" alt="">
+                                    </span>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -31,10 +31,36 @@
                 <nav class="header-nav">
                     <ul class="header-nav__list">
                         <li>
-                            <a href="<?php bloginfo('url'); ?>/concept/">選ばれる理由</a>
+                            <a href="<?php bloginfo('url'); ?>/feature/">選ばれる理由</a>
                         </li>
-                        <li>
-                            <a href="<?php bloginfo('url'); ?>/performance/">リフォームサービス</a>
+                        <li class="header-nav__link">
+                            <p>リフォームサービス</p>
+                            <div class="header-nav__dropDown">
+                                <p>増改築リフォーム</p>
+                                <ul class="header-nav__dropDown--list">
+                                    <li>
+                                        <a href="<?php bloginfo('url'); ?>/reform/stylechange/">和室を洋室に</a>
+                                    </li>
+                                    <li>
+                                        <a href="<?php bloginfo('url'); ?>/reform/planchange/">間取り変更</a>
+                                    </li>
+                                    <li>
+                                        <a href="<?php bloginfo('url'); ?>/reform/ldk/">LDKリフォーム</a>
+                                    </li>
+                                    <li>
+                                        <a href="<?php bloginfo('url'); ?>/reform/renovation/">大規模リノベ</a>
+                                    </li>
+                                    <li>
+                                        <a href="<?php bloginfo('url'); ?>/reform/insulation/">断熱リフォーム</a>
+                                    </li>
+                                    <li>
+                                        <a href="<?php bloginfo('url'); ?>/reform/barrierfree/">バリアフリー</a>
+                                    </li>
+                                    <li>
+                                        <a href="<?php bloginfo('url'); ?>/reform/waterarea/">水回りリフォーム</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
                         <li>
                             <a href="<?php bloginfo('url'); ?>/performance/">施工事例</a>
@@ -65,25 +91,22 @@
                             <nav class="header-open__nav">
                                 <ul class="header-open__list">
                                     <li><a href="<?php echo home_url() ?>">トップページ</a></li>
-                                    <li><a href="<?php bloginfo('url'); ?>/professional/">はじめての方へ</a></li>
-                                    <li><a href="<?php bloginfo('url'); ?>/concept/">選ばれる理由</a></li>
+                                    <li><a href="<?php bloginfo('url'); ?>/beginner/">はじめての方へ</a></li>
+                                    <li><a href="<?php bloginfo('url'); ?>/feature/">選ばれる理由</a></li>
                                     <li><a href="<?php bloginfo('url'); ?>//">よくある質問</a></li>
                                     <li><a href="<?php bloginfo('url'); ?>//">リフォームサービス</a></li>
                                     <li>
                                         <p>増改築リフォーム</p>
                                         <ul class="header-child__menu">
-                                            <li><a
-                                                    href="<?php bloginfo('url'); ?>/reform/convert-japanese-to-western/">和室を洋室に</a>
-                                            </li>
-                                            <li><a href="<?php bloginfo('url'); ?>/reform/layout-change/">間取り変更</a></li>
+                                            <li><a href="<?php bloginfo('url'); ?>/reform/stylechange/">和室を洋室に</a></li>
+                                            <li><a href="<?php bloginfo('url'); ?>/reform/planchange/">間取り変更</a></li>
                                             <li><a href="<?php bloginfo('url'); ?>/reform/ldk/">LDKリフォーム</a></li>
-                                            <li><a href="<?php bloginfo('url'); ?>/reform/large-renovation/">大規模リノベ</a>
-                                            </li>
+                                            <li><a href="<?php bloginfo('url'); ?>/reform/renovation/">大規模リノベ</a></li>
                                             <li><a href="<?php bloginfo('url'); ?>/reform/insulation/">断熱リフォーム</a></li>
-                                            <li><a href="<?php bloginfo('url'); ?>/reform/barrier-free/">バリアフリー</a></li>
+                                            <li><a href="<?php bloginfo('url'); ?>/reform/barrierfree/">バリアフリー</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="<?php bloginfo('url'); ?>/">水回りリフォーム</a></li>
+                                    <li><a href="<?php bloginfo('url'); ?>/reform/waterarea/">水回りリフォーム</a></li>
                                 </ul>
                                 <ul class="header-open__list">
                                     <li><a href="<?php bloginfo('url'); ?>/">施工事例＆お客様の声</a></li>
