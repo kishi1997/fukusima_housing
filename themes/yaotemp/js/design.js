@@ -192,6 +192,35 @@ $(function () {
   });
 });
 
+//下層ページ - feature
+$(function () {
+  $(".feature-staff__list").slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: true,
+    infinite: true,
+    autoplay: false,
+    fade: false,
+    dots: false,
+    prevArrow: $(".c-slick__arrows--prev"),
+    nextArrow: $(".c-slick__arrows--next"),
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  });
+});
+
 // 画像拡大
 $(function () {
   $(".gallery").modaal({
@@ -222,3 +251,16 @@ function adjustBodyPadding() {
 
 window.addEventListener("resize", adjustBodyPadding);
 window.addEventListener("load", adjustBodyPadding);
+
+
+// ヘッダー　背景変化
+const header = document.querySelector("header");
+window.addEventListener("scroll", () => {
+  // 垂直方向のスクロール量
+  const scrollY = window.scrollY;
+  if (scrollY <= 0) {
+    header.classList.remove("scroll");
+  } else {
+    header.classList.add("scroll");
+  }
+});

@@ -71,8 +71,8 @@
             <ul class="l-footer__list">
                 <div>
                     <li><a class="l-footer__list__top" href="<?php echo home_url() ?>">トップページ</a></li>
-                    <li><a href="<?php bloginfo('url'); ?>/about/">はじめての方へ</a></li>
-                    <li><a href="<?php bloginfo('url'); ?>/reason/">選ばれる理由</a></li>
+                    <li><a href="<?php bloginfo('url'); ?>/beginner/">はじめての方へ</a></li>
+                    <li><a href="<?php bloginfo('url'); ?>/feature/">選ばれる理由</a></li>
                     <li><a href="<?php bloginfo('url'); ?>/question/">よくある質問</a></li>
                 </div>
                 <div>
@@ -80,15 +80,15 @@
                     <li>
                         <p>増改築リフォーム</p>
                         <ul class="l-footer__childMenu">
-                            <li><a href="<?php bloginfo('url'); ?>//">和室を洋室に</a></li>
-                            <li><a href="<?php bloginfo('url'); ?>//">間取り変更</a></li>
-                            <li><a href="<?php bloginfo('url'); ?>//">LDKリフォーム</a></li>
-                            <li><a href="<?php bloginfo('url'); ?>//">大規模リノベ</a></li>
-                            <li><a href="<?php bloginfo('url'); ?>//">断熱リフォーム</a></li>
-                            <li><a href="<?php bloginfo('url'); ?>//">バリアフリー</a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/reform/stylechange/">和室を洋室に</a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/reform/planchange/">間取り変更</a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/reform/ldk/">LDKリフォーム</a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/reform/renovation/">大規模リノベ</a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/reform/insulation/">断熱リフォーム</a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/reform/barrierfree/">バリアフリー</a></li>
                         </ul>
                     </li>
-                    <li><a href="<?php bloginfo('url'); ?>//">水回りリフォーム</a></li>
+                    <li><a href="<?php bloginfo('url'); ?>/reform/waterarea/">水回りリフォーム</a></li>
                 </div>
                 <div>
                     <li><a href="<?php bloginfo('url'); ?>/">施工実績＆お客様の声</a></li>
